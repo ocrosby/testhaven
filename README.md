@@ -23,6 +23,19 @@ I will be using Conventional Commits for my commit messages.
 5. Create a docker-compose.yml file at the root of the project to orchestrate all the services.
 6. Use Structurizr for documentation as code.
 
+
+### Docker Compose
+
+To bring up all the services, you can use the following command:
+
+```bash
+docker-compose up
+```
+
+At this point you can access the Structurizer diagrams at
+
+http://localhost:8080
+
 ### Basic Directory Structure
 
 ```text
