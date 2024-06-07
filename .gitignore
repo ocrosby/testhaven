@@ -131,3 +131,5 @@ dist
 
 .idea
 data
+docs/structurizr/src/.structurizr
+docs/structurizr/src/*.json
