@@ -17,3 +17,15 @@ Example
 ```bash
 npx lerna exec --scope ui -- npm install
 ```
+
+To install ESLint for all packages
+
+```bash
+npx lerna add eslint --dev
+```
+
+To install ESLint for a package
+
+```bash
+npm install estlint --save-dev -w <package-name>
+```
