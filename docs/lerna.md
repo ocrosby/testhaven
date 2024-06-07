@@ -1,5 +1,11 @@
 # Using Lerna
 
+Installing dependencies for all packages
+
+```bash
+npx lerna exec -- npm install
+```
+
 Installing dependencies for a package
 
 ```bash
