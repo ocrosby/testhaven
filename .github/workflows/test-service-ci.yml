@@ -24,8 +24,21 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Install dependencies and build
+
+      - name: Install Dependencies
         run: |
           cd packages/test-service
+          npm install -g npm@latest
+          node --version
+          npm --version          
           npm ci
+
+      - name: Analyze Syntax
+        run: |
+          cd packages/test-service
+          npm run lint
+
+      - name: Build
+        run: |
+          cd packages/test-service
           npm run build
