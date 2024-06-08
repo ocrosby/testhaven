@@ -4,10 +4,12 @@ on:
   push:
     paths:
       - 'packages/test-service/**'
+      - '.github/workflows/test-service-ci.yml'
     branches: [ main ]
   pull_request:
     paths:
       - 'packages/test-service/**'
+      - '.github/workflows/test-service-ci.yml'
     branches: [ main ]
 
 jobs:
