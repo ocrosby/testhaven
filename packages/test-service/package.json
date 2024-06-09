@@ -5,7 +5,8 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node ./bin/www",
-    "build": "echo 'build'"
+    "build": "echo 'build'",
+    "test": "mocha ."
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -14,11 +15,14 @@
     "morgan": "~1.9.1"
   },
   "devDependencies": {
+    "chai": "^5.1.1",
+    "cors": "^2.8.5",
     "eslint": "^8.0.1",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsdoc": "^48.2.9",
     "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-promise": "^6.2.0"
+    "eslint-plugin-promise": "^6.2.0",
+    "mocha": "^10.4.0"
   }
 }
