@@ -160,3 +160,4 @@ Here's an example of what your directory structure might look like:
 * [Lerna](https://lerna.js.org/)
 * [Conventional Commits](https://www.conventionalcommits.org/)
 * [Conventional Commits Cheat Sheet](https://gist.github.com/Zekfad/f51cb06ac76e2457f11c80ed705c95a3)
+* [TypeScript Express](https://blog.logrocket.com/how-to-set-up-node-typescript-express/)
