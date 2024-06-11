@@ -21,7 +21,7 @@ npx lerna exec --scope ui -- npm install
 To install ESLint for all packages
 
 ```bash
-npx lerna add eslint --dev
+npm install eslint --save-dev  
 ```
 
 To install ESLint for a package
