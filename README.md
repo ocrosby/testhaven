@@ -10,6 +10,8 @@ in a monorepo favoring JavaScript/TypeScript and there will be
 a docker compose file at the root to spin everything up for 
 rapid development.
 
+[Lerna](https://lerna.js.org/) will be the tool used to manage the monorepo.
+
 ## Conventional Commits
 
 I will be using Conventional Commits for my commit messages.
@@ -161,3 +163,4 @@ Here's an example of what your directory structure might look like:
 * [Conventional Commits](https://www.conventionalcommits.org/)
 * [Conventional Commits Cheat Sheet](https://gist.github.com/Zekfad/f51cb06ac76e2457f11c80ed705c95a3)
 * [TypeScript Express](https://blog.logrocket.com/how-to-set-up-node-typescript-express/)
+* [Octa Express](https://developer.okta.com/blog/2018/11/15/node-express-typescript?utm_source=google&utm_campaign=amer_namer_usa_all_ciam-all_dg-ao_a-ciam_search_google_display_site_pmax_utm2&utm_medium=cpc&utm_id=aNK4z000000UEqBGAW&gad_source=1&gclid=CjwKCAjwhIS0BhBqEiwADAUhc4ngOdiSLFouXoeHBiJbaXjKXwZhS5LpR9qtmtkMZshre023BSCjzhoCYc4QAvD_BwE)
